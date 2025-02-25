@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3396E0762BD877D500213816 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3396E0752BD877D500213816 /* Menus.swift */; };
+		E69BE2F12D6DBAA4003D457C /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = E69BE2F02D6DBAA4003D457C /* MarkdownUI */; };
 		FF0146CB2B3DA1DF00A2A9F6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0146CA2B3DA1DF00A2A9F6 /* Settings.swift */; };
 		FF0146CD2B3DADCA00A2A9F6 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0146CC2B3DADCA00A2A9F6 /* HapticsService.swift */; };
 		FF0611EA2C04A11800443B33 /* Magnet in Frameworks */ = {isa = PBXBuildFile; platformFilters = (macos, ); productRef = FF0611E92C04A11800443B33 /* Magnet */; };
@@ -100,7 +101,6 @@
 		FFEC9BE12B81327B00AFBA63 /* DragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC9BE02B81327B00AFBA63 /* DragAndDrop.swift */; };
 		FFEC9BE32B81358800AFBA63 /* DeallocPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC9BE22B81358800AFBA63 /* DeallocPrinter.swift */; };
 		FFEC9BE72B813A8D00AFBA63 /* RemovableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC9BE62B813A8D00AFBA63 /* RemovableImage.swift */; };
-		FFF993592BDFBDCC004DCF19 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = FFF993582BDFBDCC004DCF19 /* MarkdownUI */; };
 		FFFD00C22B92607800392AE6 /* CompletionsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD00C12B92607800392AE6 /* CompletionsStore.swift */; };
 		FFFD00C92B94CB5E00392AE6 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = FFFD00C82B94CB5E00392AE6 /* AsyncAlgorithms */; };
 /* End PBXBuildFile section */
@@ -207,18 +207,25 @@
 				FFD5FAD52B8130CE0055AB51 /* OllamaKit in Frameworks */,
 				FFD5FAD22B8130490055AB51 /* Vortex in Frameworks */,
 				FF0611F12C04A2FB00443B33 /* Splash in Frameworks */,
+				E69BE2F12D6DBAA4003D457C /* MarkdownUI in Frameworks */,
 				FF0611EA2C04A11800443B33 /* Magnet in Frameworks */,
 				FF911DF12B98F08800915E94 /* WrappingHStack in Frameworks */,
 				FF1002662B2653EE0011A4DC /* ActivityIndicatorView in Frameworks */,
 				FFFD00C92B94CB5E00392AE6 /* AsyncAlgorithms in Frameworks */,
 				FF4A605D2BC3587800D7BD4F /* KeyboardShortcuts in Frameworks */,
-				FFF993592BDFBDCC004DCF19 /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E69BE2EF2D6DBAA4003D457C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF10022C2B2481790011A4DC /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				FFEC328F2B24779A003E5C04 /* Enchanted */,
+				E69BE2EF2D6DBAA4003D457C /* Frameworks */,
 				FFEC328E2B24779A003E5C04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -587,9 +595,9 @@
 				FFFD00C82B94CB5E00392AE6 /* AsyncAlgorithms */,
 				FF911DF02B98F08800915E94 /* WrappingHStack */,
 				FF4A605C2BC3587800D7BD4F /* KeyboardShortcuts */,
-				FFF993582BDFBDCC004DCF19 /* MarkdownUI */,
 				FF0611E92C04A11800443B33 /* Magnet */,
 				FF0611F02C04A2FB00443B33 /* Splash */,
+				E69BE2F02D6DBAA4003D457C /* MarkdownUI */,
 			);
 			productName = Enchanted;
 			productReference = FFEC328D2B24779A003E5C04 /* Enchanted.app */;
@@ -611,7 +619,6 @@
 				};
 			};
 			buildConfigurationList = FFEC32882B24779A003E5C04 /* Build configuration list for PBXProject "Enchanted" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -626,10 +633,11 @@
 				FFFD00C72B94CB5E00392AE6 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
 				FF911DEF2B98F08800915E94 /* XCRemoteSwiftPackageReference "WrappingHStack" */,
 				FF4A605B2BC3587800D7BD4F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
-				FFF993572BDFBDCC004DCF19 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 				FF0611E82C04A11800443B33 /* XCRemoteSwiftPackageReference "Magnet" */,
 				FF0611EF2C04A2FB00443B33 /* XCRemoteSwiftPackageReference "Splash" */,
+				E6982FC82D6C47D8003843A2 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = FFEC328E2B24779A003E5C04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -871,12 +879,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Enchanted/EnchantedDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Enchanted/Preview Content\"";
-				DEVELOPMENT_TEAM = JDDZ55DT74;
+				DEVELOPMENT_TEAM = 2NK8U47VYY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
@@ -884,7 +891,7 @@
 				INFOPLIST_FILE = Enchanted/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe text. Recording is discarded after transcription.";
-				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can speak with enchanted with your voice.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -900,7 +907,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.7.2;
-				PRODUCT_BUNDLE_IDENTIFIER = subj.Enchanted;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wve.assistent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -927,7 +934,7 @@
 				CURRENT_PROJECT_VERSION = 37;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Enchanted/Preview Content\"";
-				DEVELOPMENT_TEAM = JDDZ55DT74;
+				DEVELOPMENT_TEAM = 2NK8U47VYY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
@@ -935,7 +942,7 @@
 				INFOPLIST_FILE = Enchanted/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe text. Recording is discarded after transcription.";
-				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can speak with enchanted with your voice.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -951,7 +958,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.7.2;
-				PRODUCT_BUNDLE_IDENTIFIER = subj.Enchanted;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wve.assistent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -990,6 +997,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E6982FC82D6C47D8003843A2 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
 		FF0611E82C04A11800443B33 /* XCRemoteSwiftPackageReference "Magnet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AugustDev/Magnet";
@@ -1046,14 +1061,6 @@
 				kind = branch;
 			};
 		};
-		FFF993572BDFBDCC004DCF19 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AugustDev/swift-markdown-ui";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		FFFD00C72B94CB5E00392AE6 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
@@ -1065,6 +1072,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E69BE2F02D6DBAA4003D457C /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6982FC82D6C47D8003843A2 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
 		FF0611E92C04A11800443B33 /* Magnet */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FF0611E82C04A11800443B33 /* XCRemoteSwiftPackageReference "Magnet" */;
@@ -1099,11 +1111,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FFD5FAD32B8130CE0055AB51 /* XCRemoteSwiftPackageReference "OllamaKit" */;
 			productName = OllamaKit;
-		};
-		FFF993582BDFBDCC004DCF19 /* MarkdownUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FFF993572BDFBDCC004DCF19 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
-			productName = MarkdownUI;
 		};
 		FFFD00C82B94CB5E00392AE6 /* AsyncAlgorithms */ = {
 			isa = XCSwiftPackageProductDependency;
