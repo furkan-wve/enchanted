@@ -107,6 +107,8 @@
 
 /* Begin PBXFileReference section */
 		3396E0752BD877D500213816 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
+		E6D6DD4D2D6EFB4600F5A57C /* WveAssist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WveAssist.entitlements; sourceTree = "<group>"; };
+		E6D6DD502D6EFBB300F5A57C /* WveAssitsDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WveAssitsDebug.entitlements; sourceTree = "<group>"; };
 		FF0146CA2B3DA1DF00A2A9F6 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		FF0146CC2B3DADCA00A2A9F6 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
 		FF0611F22C04BEFD00443B33 /* AVSpeechSynthesisVoice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVSpeechSynthesisVoice+Extension.swift"; sourceTree = "<group>"; };
@@ -166,7 +168,6 @@
 		FF9300DB2B7823B0000859F4 /* EmptyConversaitonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyConversaitonView.swift; sourceTree = "<group>"; };
 		FF9300DD2B782A28000859F4 /* UnreachableAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreachableAPIView.swift; sourceTree = "<group>"; };
 		FF9300DF2B783945000859F4 /* InputFields_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFields_macOS.swift; sourceTree = "<group>"; };
-		FF9C92072BF0B464004C8275 /* EnchantedDebug.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = EnchantedDebug.entitlements; sourceTree = "<group>"; };
 		FF9C92092BF0B7B1004C8275 /* LanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
 		FF9C920B2BF0C088004C8275 /* OptionsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMenuView.swift; sourceTree = "<group>"; };
 		FFB0327C2B312F3D0066A9DB /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
@@ -186,10 +187,9 @@
 		FFE21C772B82353A00A69B9C /* SleepTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTest.swift; sourceTree = "<group>"; };
 		FFE2C8222B9A657A00BD82F3 /* Accessibility.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Accessibility.plist; sourceTree = "<group>"; };
 		FFEB9CA72BA04304004B1F3D /* NotificationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMessage.swift; sourceTree = "<group>"; };
-		FFEC328D2B24779A003E5C04 /* Enchanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enchanted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEC328D2B24779A003E5C04 /* WveAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WveAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEC32902B24779A003E5C04 /* EnchantedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantedApp.swift; sourceTree = "<group>"; };
 		FFEC32962B24779B003E5C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFEC32982B24779B003E5C04 /* Enchanted.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Enchanted.entitlements; sourceTree = "<group>"; };
 		FFEC329A2B24779B003E5C04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFEC32A92B24797C003E5C04 /* ChatView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView_iOS.swift; sourceTree = "<group>"; };
 		FFEC9BDE2B8131B900AFBA63 /* HotKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeys.swift; sourceTree = "<group>"; };
@@ -444,7 +444,7 @@
 		FFEC32842B24779A003E5C04 = {
 			isa = PBXGroup;
 			children = (
-				FFEC328F2B24779A003E5C04 /* Enchanted */,
+				FFEC328F2B24779A003E5C04 /* WveAssist */,
 				E69BE2EF2D6DBAA4003D457C /* Frameworks */,
 				FFEC328E2B24779A003E5C04 /* Products */,
 			);
@@ -453,16 +453,16 @@
 		FFEC328E2B24779A003E5C04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFEC328D2B24779A003E5C04 /* Enchanted.app */,
+				FFEC328D2B24779A003E5C04 /* WveAssist.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFEC328F2B24779A003E5C04 /* Enchanted */ = {
+		FFEC328F2B24779A003E5C04 /* WveAssist */ = {
 			isa = PBXGroup;
 			children = (
-				FF9C92072BF0B464004C8275 /* EnchantedDebug.entitlements */,
-				FFEC32982B24779B003E5C04 /* Enchanted.entitlements */,
+				E6D6DD502D6EFBB300F5A57C /* WveAssitsDebug.entitlements */,
+				E6D6DD4D2D6EFB4600F5A57C /* WveAssist.entitlements */,
 				FFE2C8222B9A657A00BD82F3 /* Accessibility.plist */,
 				FFBBF4822B348345008D611C /* Info.plist */,
 				FFEC32962B24779B003E5C04 /* Assets.xcassets */,
@@ -476,7 +476,7 @@
 				FF1002412B25BAAE0011A4DC /* SwiftData */,
 				FFEC32A52B247879003E5C04 /* UI */,
 			);
-			path = Enchanted;
+			path = WveAssist;
 			sourceTree = "<group>";
 		};
 		FFEC32992B24779B003E5C04 /* Preview Content */ = {
@@ -575,9 +575,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFEC328C2B24779A003E5C04 /* Enchanted */ = {
+		FFEC328C2B24779A003E5C04 /* WveAssist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFEC329E2B24779B003E5C04 /* Build configuration list for PBXNativeTarget "Enchanted" */;
+			buildConfigurationList = FFEC329E2B24779B003E5C04 /* Build configuration list for PBXNativeTarget "WveAssist" */;
 			buildPhases = (
 				FFEC32892B24779A003E5C04 /* Sources */,
 				FFEC328A2B24779A003E5C04 /* Frameworks */,
@@ -587,7 +587,7 @@
 			);
 			dependencies = (
 			);
-			name = Enchanted;
+			name = WveAssist;
 			packageProductDependencies = (
 				FF1002652B2653EE0011A4DC /* ActivityIndicatorView */,
 				FF464B122B8026DA008E5130 /* Vortex */,
@@ -600,7 +600,7 @@
 				E69BE2F02D6DBAA4003D457C /* MarkdownUI */,
 			);
 			productName = Enchanted;
-			productReference = FFEC328D2B24779A003E5C04 /* Enchanted.app */;
+			productReference = FFEC328D2B24779A003E5C04 /* WveAssist.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -618,7 +618,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FFEC32882B24779A003E5C04 /* Build configuration list for PBXProject "Enchanted" */;
+			buildConfigurationList = FFEC32882B24779A003E5C04 /* Build configuration list for PBXProject "WveAssist" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -642,7 +642,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFEC328C2B24779A003E5C04 /* Enchanted */,
+				FFEC328C2B24779A003E5C04 /* WveAssist */,
 			);
 		};
 /* End PBXProject section */
@@ -877,18 +877,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = Enchanted/EnchantedDebug.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WveAssist/WveAssitsDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Enchanted/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WveAssist/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NK8U47VYY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Enchanted/Info.plist;
+				INFOPLIST_FILE = WveAssist/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe text. Recording is discarded after transcription.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can speak with enchanted with your voice.";
@@ -928,18 +929,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = Enchanted/Enchanted.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WveAssist/WveAssist.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Enchanted/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WveAssist/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NK8U47VYY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Enchanted/Info.plist;
+				INFOPLIST_FILE = WveAssist/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe text. Recording is discarded after transcription.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can speak with enchanted with your voice.";
@@ -976,7 +977,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFEC32882B24779A003E5C04 /* Build configuration list for PBXProject "Enchanted" */ = {
+		FFEC32882B24779A003E5C04 /* Build configuration list for PBXProject "WveAssist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFEC329C2B24779B003E5C04 /* Debug */,
@@ -985,7 +986,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFEC329E2B24779B003E5C04 /* Build configuration list for PBXNativeTarget "Enchanted" */ = {
+		FFEC329E2B24779B003E5C04 /* Build configuration list for PBXNativeTarget "WveAssist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFEC329F2B24779B003E5C04 /* Debug */,
