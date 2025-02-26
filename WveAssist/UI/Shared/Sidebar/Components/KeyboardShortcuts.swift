@@ -1,8 +1,8 @@
 //
 //  KeyboardShortcuts.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 19/02/2024.
+//  Created by FURKAN VIJAPURA on 19/02/2024.
 //
 
 import SwiftUI

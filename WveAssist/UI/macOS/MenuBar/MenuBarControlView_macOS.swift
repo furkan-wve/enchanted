@@ -1,8 +1,8 @@
 //
 //  MenuBarControlView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 12/02/2024.
+//  Created by FURKAN VIJAPURA on 12/02/2024.
 //
 
 #if os(macOS)
@@ -16,7 +16,7 @@ struct MenuBarControlView: View {
                 GridRow {
                     HStack {
                         ControlView(icon: "checkmark.circle", title: "Ollama", subtitle: "Online")
-                        ControlView(icon: "x.circle", title: "Enchanted", subtitle: "Online")
+                        ControlView(icon: "x.circle", title: "WveAssist", subtitle: "Online")
                     }
                     .padding(12)
                     .background {

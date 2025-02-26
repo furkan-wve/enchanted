@@ -1,8 +1,8 @@
 //
 //  CodeBlockView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 13/05/2024.
+//  Created by FURKAN VIJAPURA on 13/05/2024.
 //
 
 import SwiftUI

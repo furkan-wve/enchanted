@@ -1,8 +1,8 @@
 //
 //  SideBarMenuView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 09/12/2023.
+//  Created by FURKAN VIJAPURA on 09/12/2023.
 //
 
 import SwiftUI

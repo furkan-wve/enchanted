@@ -1,8 +1,8 @@
 //
 //  Throttler.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 29/12/2023.
+//  Created by FURKAN VIJAPURA on 29/12/2023.
 //
 
 import Foundation

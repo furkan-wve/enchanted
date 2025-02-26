@@ -1,8 +1,8 @@
 //
 //  ConversationStatusView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 10/12/2023.
+//  Created by FURKAN VIJAPURA on 10/12/2023.
 //
 
 import SwiftUI

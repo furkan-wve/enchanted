@@ -1,8 +1,8 @@
 //
 //  Image+Extension.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 27/05/2024.
+//  Created by FURKAN VIJAPURA on 27/05/2024.
 //
 
 import SwiftUI

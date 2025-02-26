@@ -1,8 +1,8 @@
 //
 //  SamplePrompt.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 11/02/2024.
+//  Created by FURKAN VIJAPURA on 11/02/2024.
 //
 
 import Foundation

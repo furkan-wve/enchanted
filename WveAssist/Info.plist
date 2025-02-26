@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSAccessibilityUsageDescription</key>
-	<string>Enchanted can perform operatios on selected text such as fixing grammar, extending texts as well as custom commands.</string>
+	<string>WveAssist can perform operatios on selected text such as fixing grammar, extending texts as well as custom commands.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

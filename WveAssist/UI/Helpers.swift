@@ -1,8 +1,8 @@
 //
 //  Helpers.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 09/02/2024.
+//  Created by FURKAN VIJAPURA on 09/02/2024.
 //
 
 import SwiftUI

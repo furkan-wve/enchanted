@@ -1,6 +1,6 @@
 //
 //  Menus.swift
-//  Enchanted
+//  WveAssist
 //
 //  Created by Wildan Zulfikar on 24.4.2024.
 //

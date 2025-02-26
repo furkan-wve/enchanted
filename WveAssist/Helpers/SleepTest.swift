@@ -1,8 +1,8 @@
 //
 //  SleepTest.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 18/02/2024.
+//  Created by FURKAN VIJAPURA on 18/02/2024.
 //
 
 import Foundation

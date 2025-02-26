@@ -1,8 +1,8 @@
 //
-//  EnchantedApp.swift
-//  Enchanted
+//  AssistApp.swift
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 09/12/2023.
+//  Created by FURKAN VIJAPURA on 09/12/2023.
 //
 
 import SwiftUI
@@ -16,7 +16,7 @@ extension KeyboardShortcuts.Name {
 #endif
 
 @main
-struct EnchantedApp: App {
+struct AssistApp: App {
     @State private var appStore = AppStore.shared
 #if os(macOS)
     @NSApplicationDelegateAdaptor(PanelManager.self) var panelManager

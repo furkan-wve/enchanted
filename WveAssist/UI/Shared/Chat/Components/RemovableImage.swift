@@ -1,8 +1,8 @@
 //
 //  RemovableImage.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 17/02/2024.
+//  Created by FURKAN VIJAPURA on 17/02/2024.
 //
 
 import SwiftUI

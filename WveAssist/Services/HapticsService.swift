@@ -1,8 +1,8 @@
 //
 //  HapticsService.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 28/12/2023.
+//  Created by FURKAN VIJAPURA on 28/12/2023.
 //
 
 #if os(iOS)

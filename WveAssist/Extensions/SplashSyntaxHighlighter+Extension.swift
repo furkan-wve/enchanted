@@ -1,8 +1,8 @@
 //
 //  SplashSyntaxHighlighter+Extension.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 12/03/2024.
+//  Created by FURKAN VIJAPURA on 12/03/2024.
 //
 
 import MarkdownUI

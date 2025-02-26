@@ -1,8 +1,8 @@
 //
 //  ConversationView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 26/05/2024.
+//  Created by FURKAN VIJAPURA on 26/05/2024.
 //
 
 import SwiftUI

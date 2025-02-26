@@ -1,8 +1,8 @@
 //
 //  UnreachableAPIView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 10/02/2024.
+//  Created by FURKAN VIJAPURA on 10/02/2024.
 //
 
 import SwiftUI

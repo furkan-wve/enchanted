@@ -1,8 +1,8 @@
 //
 //  PromptPanelVM.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 29/02/2024.
+//  Created by FURKAN VIJAPURA on 29/02/2024.
 //
 
 import SwiftUI

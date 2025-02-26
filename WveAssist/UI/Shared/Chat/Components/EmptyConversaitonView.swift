@@ -1,8 +1,8 @@
 //
 //  EmptyConversaitonView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 10/02/2024.
+//  Created by FURKAN VIJAPURA on 10/02/2024.
 //
 
 import SwiftUI
@@ -27,7 +27,7 @@ struct EmptyConversaitonView: View, KeyboardReadable {
             Spacer()
             
             VStack(spacing: 25) {
-                Text("Enchanted")
+                Text("WveAssist")
                     .font(Font.system(size: 46, weight: .thin))
                     .multilineTextAlignment(.center)
                     .foregroundStyle(

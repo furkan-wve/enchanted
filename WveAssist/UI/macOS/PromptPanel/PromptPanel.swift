@@ -1,8 +1,8 @@
 //
 //  PromptPanel.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 12/02/2024.
+//  Created by FURKAN VIJAPURA on 12/02/2024.
 //
 
 #if os(macOS)

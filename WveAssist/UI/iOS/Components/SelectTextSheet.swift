@@ -1,8 +1,8 @@
 //
 //  SelectTextSheet.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 01/05/2024.
+//  Created by FURKAN VIJAPURA on 01/05/2024.
 //
 
 #if os(iOS) || os(visionOS)

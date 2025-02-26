@@ -1,8 +1,8 @@
 //
 //  SwiftUIView.swift
-//  Enchanted
+//  WveAssist
 //
-//  Created by Augustinas Malinauskas on 18/12/2023.
+//  Created by FURKAN VIJAPURA on 18/12/2023.
 //
 
 import SwiftUI
