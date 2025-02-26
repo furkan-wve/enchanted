@@ -27,7 +27,7 @@ struct EmptyConversaitonView: View, KeyboardReadable {
             Spacer()
             
             VStack(spacing: 25) {
-                Text("WveAssist")
+                Text("WveAssist.Ai")
                     .font(Font.system(size: 46, weight: .thin))
                     .multilineTextAlignment(.center)
                     .foregroundStyle(

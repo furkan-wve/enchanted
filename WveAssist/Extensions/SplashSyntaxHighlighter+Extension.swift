@@ -47,7 +47,7 @@ struct TextOutputFormat: OutputFormat {
 extension TextOutputFormat {
   struct Builder: OutputBuilder {
       private let theme: Splash.Theme
-    private var accumulatedText: [Text]
+	  private var accumulatedText: [Text]
 
       fileprivate init(theme: Splash.Theme) {
       self.theme = theme

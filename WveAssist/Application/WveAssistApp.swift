@@ -16,7 +16,7 @@ extension KeyboardShortcuts.Name {
 #endif
 
 @main
-struct AssistApp: App {
+struct WveAssistApp: App {
     @State private var appStore = AppStore.shared
 #if os(macOS)
     @NSApplicationDelegateAdaptor(PanelManager.self) var panelManager

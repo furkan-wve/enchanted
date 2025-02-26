@@ -10,7 +10,7 @@ import SwiftData
 
 @Observable
 final class LanguageModelStore {
-    static let shared = LanguageModelStore(swiftDataService: SwiftDataService.shared)
+	@MainActor static let shared = LanguageModelStore(swiftDataService: SwiftDataService.shared)
     
     private var swiftDataService: SwiftDataService
     @MainActor var models: [LanguageModelSD] = []

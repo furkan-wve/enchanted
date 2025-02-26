@@ -63,26 +63,24 @@ struct ChatView: View {
     }
     
     private func onMessageSubmit() {
-        Task {
-            await Haptics.shared.mediumTap()
-            
-            guard let selectedModel = selectedModel else { return }
-            
-            await onSendMessageTap(
-                message,
-                selectedModel,
-                selectedImage,
-                editMessage?.id.uuidString
-            )
-            
-            withAnimation {
-                isFocusedInput = false
-                editMessage = nil
-                selectedImage = nil
-                message = ""
-            }
-        }
-    }
+		Haptics.shared.mediumTap()
+		
+		guard let selectedModel = selectedModel else { return }
+		
+		onSendMessageTap(
+			message,
+			selectedModel,
+			selectedImage,
+			editMessage?.id.uuidString
+		)
+		
+		withAnimation {
+			isFocusedInput = false
+			editMessage = nil
+			selectedImage = nil
+			message = ""
+		}
+	}
     
     var header: some View {
         HStack(alignment: .center) {
