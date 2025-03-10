@@ -8,6 +8,7 @@
 import SwiftUI
 import MarkdownUI
 
+@MainActor
 struct MarkdownColours {
     static let text = Color(
         light: Color(rgba: 0x0606_06ff), dark: Color(rgba: 0xfbfb_fcff)

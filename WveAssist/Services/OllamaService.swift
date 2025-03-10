@@ -18,8 +18,8 @@ class OllamaService: @unchecked Sendable {
         initEndpoint()
     }
     
-    func initEndpoint(url: String? = nil, bearerToken: String? = "okki") {
-        let defaultUrl = "http://192.168.29.216:8080"
+    func initEndpoint(url: String? = nil, bearerToken: String? = "🤓") {
+        let defaultUrl = "http://192.168.29.123:8080"
         let localStorageUrl = UserDefaults.standard.string(forKey: "ollamaUri")
         let bearerToken = UserDefaults.standard.string(forKey: "ollamaBearerToken")
         if var ollamaUrl = [localStorageUrl, defaultUrl].compactMap({$0}).filter({$0.count > 0}).first {
